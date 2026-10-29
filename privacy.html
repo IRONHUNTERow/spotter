@@ -10,7 +10,7 @@
 <main>
 <p class="brand"><a href="./">Spotter</a></p>
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: 25 October 2026</p>
+<p class="muted">Last updated: 29 October 2026</p>
 
 <p>Spotter is a workout and nutrition tracker published on Google Play by Lingaas Studio ("we", "us"). This policy explains what data the app handles, why, and the choices you have. Contact: <a href="mailto:lingaas.studio@gmail.com">lingaas.studio@gmail.com</a>.</p>
 
@@ -30,13 +30,17 @@
 <p>We use this data only to run the app: to sync your data across devices, show your progress and run the leaderboard and social features. We do not sell your data, use it for advertising or share it with data brokers. Spotter contains no ads.</p>
 
 <h2>AI Food &amp; Macro Scanner</h2>
-<p>When you use the scanner, the photo or text you submit is sent to Google's Gemini model through Firebase AI Logic so it can estimate nutrition. It is processed only to return the estimate. Spotter does not keep the photo; only the resulting food log entry is saved if you choose to save it.</p>
+<p>When you use the scanner, the photo or text you submit is sent to Google's Gemini model through Firebase AI Logic so it can estimate nutrition. It is processed only to return the estimate. Spotter does not keep the photo; only the resulting food log entry is saved if you choose to save it. The same applies when you photograph a nutrition label.</p>
+
+<h2>Barcode scanner</h2>
+<p>Barcodes are read on your phone by Google Play services' code scanner; Spotter does not get access to your camera. To find the product, Spotter sends only the barcode number to <a href="https://world.openfoodfacts.org/">Open Food Facts</a>, a free, open food database. No account details or other personal data are sent. Product information comes from Open Food Facts under the Open Database License.</p>
 
 <h2>Service providers</h2>
 <p>Spotter runs on Google services, which process data on our behalf:</p>
 <ul>
 <li>Google Firebase (Authentication, Cloud Firestore, App Check, AI Logic). Data is stored in Google's europe-west2 (London) region.</li>
-<li>Google Play (app distribution and app integrity checks).</li>
+<li>Google Play (app distribution, app integrity checks and the barcode scanner).</li>
+<li>Open Food Facts (product lookups by barcode number only).</li>
 </ul>
 <p>See <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
